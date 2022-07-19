@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+body{
+
+  background: #232323;
+
+}
+
+.start {
+
+  text-decoration: none;
+
+  font-size: 45px;
+
+  font-family: 'Oswald', sans-serif;
+
+  color: white;
+
+}
+
+.nav1 {
+
+  width: 150%;
+
+  background-color: #181818;
+
+  display: flex;
+
+}
+
+.ul1 {
+
+  display: flex;
+
+  width: 1200px;
+
+  justify-content: right;
+
+}
+
+.a {
+
+  color: white;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+
+  padding: 0px;
+
+  width:  300px;
+
+  height: 50px;
+
+  border-radius: 50px;
+
+  border: 2px solid black;
+
+  justify-content: center;
+
+  margin: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.page {
+
+  width: 250px;
+
+  justify-content: center;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.a:active {
+
+  background-color: blue;
+
+}
+
+@media(max-width: 500px) {
+
+  .start {
+
+    cursor: none;
+
+  }
+
+  .a {
+
+    cursor: none;
+
+}
+
+}
+
+.nav2 {
+
+  background-color: #181818;
+
+  width: 30%;
+
+  height: 700px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.home {
+
+  padding: 15px;
+
+}
+
+.a2 {
+
+  text-decoration: none;
+
+  color: #D9D9D9;
+
+  font-size: 30px;
+
+}
+
+i{
+
+   color: white;
+
+  font-size: 25px;
+
+  padding: 5px;
+
+}
+
+.divboss {
+
+background-color: #181818;
+
+width: 150%;
+
+   display: flex;
+
+}
+
+.qveqat {
+
+  width: 160px;
+
+  background: red;
+
+  border-radius: 20px;
+
+  display: grid;
+
+  justify-content: center;
+
+  transform: translate(230px, -20px);
+
+  background-color: #181818;
+
+  visibility: hidden;
+
+}
+
+.a4 {
+
+  text-decoration: none;
+
+  padding: 3px;
+
+  font-size: 15px;
+
+  color: #D9D9D9;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display: block;}
